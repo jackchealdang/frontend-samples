@@ -1,5 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #282c34;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)),
+    url(https://s3-alpha-sig.figma.com/img/ea2a/a004/d123d74e8b0f8a717f45cbac3e869bec?Expires=1685318400&Signature=lbK4NTI4of3NEKbZX-Tx9dt-a5eFsbUNXdwjq2AMAZCOqyyqrjtiA6oSdcM4vPfIL3sgeFtzlnyocgp5iVaZk-wXSUdjlLs4IsDXEU0fBCZVAjbb4tmnVYFZf6-qg2z6IOvajwMieeCGN7FYZ58vMRoSH5sZlAKCY4tcuPs6n1LpeExAypu31vxu08begTBqgcHmJpDbmGQ5g74~w59wj1ZMZSCjQN4I9UpLYujyUsEDD1mhHxin4ODMrJX0sBQvFxqjUkZhGGs1EmLJ96u8vQ8sdz8pZtiUYfSG7CD-Ril2f-QWBP8ACs68ZcpZbMZ3UMB97b~uN9k5pspLaqptHg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 0 2rem;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
 }
 
 .App-logo {
